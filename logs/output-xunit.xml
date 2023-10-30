@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyFirstProject" tests="8" errors="0" failures="0" skipped="0" time="15.307" timestamp="2023-10-30T10:00:45.505000">
+<testsuite name="Web Tests" tests="8" errors="0" failures="0" skipped="0" time="15.295" timestamp="2023-10-30T10:00:45.516000">
+<testsuite name="Tests" tests="8" errors="0" failures="0" skipped="0" time="15.293" timestamp="2023-10-30T10:00:45.517000">
+<testsuite name="Gherkin Login" tests="1" errors="0" failures="0" skipped="0" time="4.857" timestamp="2023-10-30T10:00:45.520000">
+<testcase classname="MyFirstProject.Web Tests.Tests.Gherkin Login" name="Valid Login" time="4.728">
+</testcase>
+<properties>
+<property name="Documentation" value="A test suite with a single Gherkin style test.&#10;&#10;This test is functionally identical to the example in&#10;valid_login.robot file."/>
+</properties>
+</testsuite>
+<testsuite name="Tdd Invalid Login" tests="6" errors="0" failures="0" skipped="0" time="5.947" timestamp="2023-10-30T10:00:50.377000">
+<testcase classname="MyFirstProject.Web Tests.Tests.Tdd Invalid Login" name="Invalid Username" time="0.363">
+</testcase>
+<testcase classname="MyFirstProject.Web Tests.Tests.Tdd Invalid Login" name="Invalid Password" time="0.318">
+</testcase>
+<testcase classname="MyFirstProject.Web Tests.Tests.Tdd Invalid Login" name="Invalid Username And Password" time="0.297">
+</testcase>
+<testcase classname="MyFirstProject.Web Tests.Tests.Tdd Invalid Login" name="Empty Username" time="0.260">
+</testcase>
+<testcase classname="MyFirstProject.Web Tests.Tests.Tdd Invalid Login" name="Empty Password" time="0.286">
+</testcase>
+<testcase classname="MyFirstProject.Web Tests.Tests.Tdd Invalid Login" name="Empty Username And Password" time="0.260">
+</testcase>
+<properties>
+<property name="Documentation" value="A test suite containing tests related to invalid login.&#10;&#10;These tests are data-driven by their nature. They use a single&#10;keyword, specified with Test Template setting, that is called&#10;with different arguments to cover different scenarios.&#10;&#10;This suite also demonstrates using setups and teardowns in&#10;different levels."/>
+</properties>
+</testsuite>
+<testsuite name="Valid Login" tests="1" errors="0" failures="0" skipped="0" time="4.482" timestamp="2023-10-30T10:00:56.326000">
+<testcase classname="MyFirstProject.Web Tests.Tests.Valid Login" name="Valid Login" time="4.474">
+</testcase>
+<properties>
+<property name="Documentation" value="A test suite with a single test for valid login.&#10;&#10;This test has a workflow that is created using keywords in&#10;the imported resource file."/>
+</properties>
+</testsuite>
+</testsuite>
+</testsuite>
+</testsuite>
